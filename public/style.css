@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+#cy {
+  width: 100vw;
+  height: 90vh;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 50px; /* Adjust as needed */
+  left: 0px;
+}
