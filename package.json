@@ -1,21 +1,24 @@
 {
   "name": "boomi-dependency-visualizer",
   "version": "1.0.0",
-  "description": "",
+  "description": "An application to visualize Boomi integration dependencies.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/philll11/boomi-dependency-visualizer.git"
+    "start": "ts-node src/extractDependencies.ts",
+    "dev": "vite"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/philll11/boomi-dependency-visualizer/issues"
+  "dependencies": {
+    "@types/node": "24.8.0",
+    "axios": "1.7.2",
+    "dotenv": "17.2.3",
+    "ts-node": "10.9.2",
+    "typescript": "5.9.3"
   },
-  "homepage": "https://github.com/philll11/boomi-dependency-visualizer#readme"
+  "devDependencies": {
+    "vite": "7.1.10"
+  }
 }
